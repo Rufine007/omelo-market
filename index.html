@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="Ofertas selecionadas, achadinhos e produtos úteis em um só lugar.">
+  <title>omelo.market — Achadinhos e ofertas</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="omelo.market página inicial"><span class="brand-mark">o</span>melo<span class="orange">.market</span></a>
+    <a class="top-link" href="#ofertas">Ver ofertas <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> ACHADINHOS SELECIONADOS</p>
+        <h1>Boas ofertas.<br><span class="orange">Menos procura.</span></h1>
+        <p class="hero-description">Produtos interessantes, achados úteis e ofertas para facilitar o seu dia — tudo reunido em um só lugar.</p>
+        <a class="primary-button" href="#ofertas">Explorar ofertas <span aria-hidden="true">↓</span></a>
+        <p class="small-note">Preços e disponibilidade podem mudar a qualquer momento.</p>
+      </div>
+      <div class="hero-art" aria-label="Ilustração decorativa de etiqueta de oferta">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="deal-card"><span class="deal-top">ACHADO DO DIA</span><div class="deal-symbol">%</div><span class="deal-bottom">BOM DE OLHO<br>NO PREÇO</span></div>
+        <span class="spark spark-a">✳</span><span class="spark spark-b">✦</span><span class="spark spark-c">+</span>
+      </div>
+    </section>
+
+    <section class="category-section" aria-label="Categorias">
+      <div class="section-heading"><div><p class="eyebrow">NAVEGUE POR INTERESSE</p><h2>O que você procura?</h2></div></div>
+      <div class="categories">
+        <button class="category active" data-filter="all"><span>✦</span> Todas</button>
+        <button class="category" data-filter="tech"><span>⌘</span> Tecnologia</button>
+        <button class="category" data-filter="casa"><span>⌂</span> Casa</button>
+        <button class="category" data-filter="moda"><span>◇</span> Moda</button>
+        <button class="category" data-filter="dia-a-dia"><span>＋</span> Dia a dia</button>
+      </div>
+    </section>
+
+    <section class="offers-section" id="ofertas">
+      <div class="section-heading offer-heading">
+        <div><p class="eyebrow">LISTA ATUALIZÁVEL</p><h2>Ofertas em destaque<span class="orange">.</span></h2></div>
+        <span class="demo-label">MODELO DEMONSTRATIVO</span>
+      </div>
+      <div class="notice"><span class="notice-icon">i</span><p>Os cards abaixo são exemplos de layout, não ofertas reais. Adicione produtos verificados e seus links oficiais de afiliado antes de publicar.</p></div>
+      <div class="product-grid" id="product-grid">
+        <article class="product-card" data-category="tech">
+          <div class="product-visual visual-tech"><span class="product-emoji">⌨</span><span class="visual-tag">TECH</span></div>
+          <div class="product-info"><span class="product-category">TECNOLOGIA</span><h3>Acessórios para seu setup</h3><p class="product-description">Ideias para deixar sua mesa mais funcional.</p><div class="price-row"><span class="price">Confira o preço</span></div><a class="product-button demo-link" href="#como-usar">Ver na Shopee <span>↗</span></a></div>
+        </article>
+        <article class="product-card" data-category="casa">
+          <div class="product-visual visual-casa"><span class="product-emoji">⌂</span><span class="visual-tag">CASA</span></div>
+          <div class="product-info"><span class="product-category">CASA</span><h3>Organização sem complicação</h3><p class="product-description">Pequenos itens que ajudam na rotina.</p><div class="price-row"><span class="price">Confira o preço</span></div><a class="product-button demo-link" href="#como-usar">Ver na Shopee <span>↗</span></a></div>
+        </article>
+        <article class="product-card" data-category="moda">
+          <div class="product-visual visual-moda"><span class="product-emoji">◇</span><span class="visual-tag">ESTILO</span></div>
+          <div class="product-info"><span class="product-category">MODA</span><h3>Acessórios para o dia a dia</h3><p class="product-description">Achadinhos para complementar seu estilo.</p><div class="price-row"><span class="price">Confira o preço</span></div><a class="product-button demo-link" href="#como-usar">Ver na Shopee <span>↗</span></a></div>
+        </article>
+        <article class="product-card" data-category="dia-a-dia">
+          <div class="product-visual visual-dia"><span class="product-emoji">✳</span><span class="visual-tag">ÚTIL</span></div>
+          <div class="product-info"><span class="product-category">DIA A DIA</span><h3>Achados que facilitam a rotina</h3><p class="product-description">Produtos práticos para conhecer.</p><div class="price-row"><span class="price">Confira o preço</span></div><a class="product-button demo-link" href="#como-usar">Ver na Shopee <span>↗</span></a></div>
+        </article>
+      </div>
+      <p class="below-grid">Encontrou algo interessante? Confira o valor, as avaliações, o frete e as condições diretamente na página do produto.</p>
+    </section>
+
+    <section class="how-section" id="como-usar">
+      <div><p class="eyebrow">SIMPLES E TRANSPARENTE</p><h2>Como funciona<span class="orange">?</span></h2></div>
+      <div class="how-grid">
+        <div class="how-item"><span class="step-number">01</span><h3>Descubra</h3><p>Explore os produtos e encontre algo que combine com você.</p></div>
+        <div class="how-item"><span class="step-number">02</span><h3>Compare</h3><p>Veja avaliações, preço final, frete e detalhes na loja.</p></div>
+        <div class="how-item"><span class="step-number">03</span><h3>Decida</h3><p>A compra acontece na plataforma do vendedor, não neste site.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#"><span class="brand-mark">o</span>melo<span class="orange">.market</span></a>
+    <p class="affiliate-disclosure">Transparência: este site pode conter links de afiliado. Se você comprar por meio deles, podemos receber uma comissão, sem custo adicional para você.</p>
+    <p class="footer-disclaimer">Os preços, cupons, estoque, frete e condições são definidos pelos vendedores e podem mudar. Confira tudo na página oficial do produto. Este site é independente e não representa oficialmente a Shopee.</p>
+    <p class="copyright">© <span id="year"></span> omelo.market · Feito para ajudar você a encontrar bons achados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
